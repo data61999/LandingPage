@@ -1,0 +1,55 @@
+/* mobile */
+@media (max-width : 740px){
+    /* comon */
+    .s-col-full{
+        width: 100% !important ;
+    }
+    .s-mt-8{
+        margin-top: 8px !important ;
+    }
+    .s-full-width{
+        width: 100% !important ;
+    }
+
+
+    /*  */
+    #header{
+        overflow: hidden;
+    }
+    #nav{
+        display: block;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333333;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+    
+    #nav > li{
+        display:  block;
+    }
+    #nav >li:first-child{
+        display: inline-block;
+    }
+    #nav li a{
+        padding: 1px 24px;
+    }
+    #header .menu-mobile-btn{
+        display: block;
+    }
+    .search-btn{
+        display: none;
+    }
+    /* content */
+    /* member */
+    #content .member-img{
+        width: 60%;
+    }
+    /* contact */
+    .contact-form{
+        margin-top: 16px;
+    }
+}
